@@ -1,0 +1,129 @@
+9 неделя. Теория.
+
+1. Варианты объявления переменных:
+let; const; var (устар.).
+
+2. console.log('Hello World');
+
+3. 
+hello 1
+hello name
+hello ilya
+
+4. 5
+
+5.  1 способ - писать JS-код прямо в странице внутри тега <script>.
+   2 способ - подключение через внешний файл: <script src="путь_к_файлу_/script.js"></script>.
+   3 способ - использовать строковую запись прямо внутри тега вместе с событием, по наступлению которого,этот код должен выполниться.
+              <button OnClick="alert('Привет!')">Нажми на меня</button> - устаревший способ, не используется (озвучен в учебных целях).
+
+6.  Разницы нет.
+
+7. Вернется 28.
+
+8. 
+"" + 1 + 0 // 10
+"" - 1 + 0 // -1
+true + false // 1 (не поняла, почему)
+6 / "3" // 2
+"2" * "3" // 6
+4 + 5 + "px" // 9px
+"$" + 4 + 5 // $45
+"4" - 2 // 2
+"4px" - 2 // NaN
+7 / 0 // Infinity
+  -9  " + 5 // -9 5
+"  -9  " - 5 // -14
+null + 1 // 1
+undefined + 1 // NaN
+" \t \n" - 2 // -2
+
+9. 2.
+
+10. 3.
+
+9 неделя. Практические задания.
+1. 
+x = 40000; 
+y = 22000;
+z = x + y;
+
+console.log(z); // 62000
+
+
+2. 1) 
+let x = "Владивосток ";
+let y = 2000;
+let z = (x + y)
+
+console.log(z);
+
+2) console.log('Песня ' + "Владивосток " + 2000); 
+
+let x = "Владивосток ";
+let y = 2000;
+let z = (x + y)
+console.log(z);
+
+
+3. let message = 128;
+let like = 254;
+let article = 137;
+let video = 201;
+let all = ((message+like+article+video)/60)
+
+console.log(all); //12 часов
+
+
+4. a) let x=2;
+      let y=5;
+      result =(x ** y);
+
+      console.log(result); // 32
+
+b) let pow = 2;
+   pow **= 5;
+
+   console.log(pow);// 32
+
+
+5. const string = '\"Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!\"';
+
+   console.log(string); // Экранирование 
+
+
+6. const greetings = "Привет";
+   const name = "Кот";
+   result =("\"Привет, " + "Кот\"");
+
+   console.log(result);
+
+
+7.let time; 
+  time = 34;
+  console.log('Старт поездки. Осталось минут: ' + time);
+
+  time = (time - 15);
+
+  console.log('Немного сторис в соцсетях. Осталось минут: ' + time);
+
+  time = (time - 10);
+
+  console.log('Немного не новостей, но событий. Осталось минут: ' + time);
+
+  time = 0;
+
+  console.log('Вы приехали. Добро пожаловать в Москву!');
+
+
+8. let fahrenheit = 451; 
+let celsius = (fahrenheit - 32) / 1.8;
+
+console.log(fahrenheit); // 451
+
+console.log(celsius); // 232.77777777777777
+
+
+
+
+
